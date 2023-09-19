@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function reinit() {
         cpt = 0;
         randomNum = Math.floor(Math.random()* 100);
-        a.innerText = randomNum;
+        //a.innerText = randomNum;
         button.innerText = "Essayer";
         msg.innerHTML = "";
         msg.style.color = "black";
